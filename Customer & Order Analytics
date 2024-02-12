@@ -1,3 +1,5 @@
+--In this SQL, I am querying a database with multiple tables to quantify statistics about customer and order data.
+
 --View the dataset and exclude invalid entries
 SELECT * FROM BIT_DB.JanSales
 WHERE length(orderID) = 6
